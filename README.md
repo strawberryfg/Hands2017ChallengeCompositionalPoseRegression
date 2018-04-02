@@ -1,6 +1,8 @@
 # Hands2017ChallengeCompositionalPoseRegression
 Implementation of Compositional Pose Regression for ICCV2017 workshop Hands2017 Challenge.
 
+Note that this is the unofficial implementation for the paper "Compositional Human Pose Regression", and thus the author does not guarantee the 100 percent accuracy.
+
 In case it is beneficial for your research, please cite this wepage.
 
 The author finds it laborious to upload the preprocessed depth data & ground truth & statistics(avg & std), and to write decent comments for the code. Interested readers are encouraged to contact Qingfu Wan directly via strawberryfgalois@gmail.com. Thank you!
