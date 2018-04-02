@@ -1,0 +1,41 @@
+
+message DeepHandModelGenRandIndexParameter {
+  optional uint32 index_lower_bound = 1 [ default = 1];
+  optional uint32 index_upper_bound = 2 [ default = 10000];
+  optional uint32 batch_size = 3 [ default = 16];
+  optional string missing_index_file = 4 [default="D:\\"];
+}
+
+
+
+message DeepHandModelReadDepthNoBBXParameter {
+  optional string file_prefix = 1 [default = "D:\\"];
+  optional uint32 depth_size = 2 [default = 224]; 
+}
+
+
+
+message AddVectorByConstantParameter {
+  optional float add_value = 1 [default = 0.0];
+}
+
+
+message ReadBlobFromFileParameter {
+  optional string file_path = 1 [default = "D:\\"];
+  optional uint32 num_to_read = 2 [default = 21];
+  optional uint32 batch_size = 3 [default = 16];
+}
+
+
+
+message ReadBlobFromFileIndexingParameter {
+  optional string file_prefix = 1 [default = "D:\\"];
+  optional uint32 num_to_read = 2 [default = 21];
+}
+
+
+
+message ScaleVectorParameter {  
+  optional float scale_factor = 1 [default = 1.8];    
+}
+
