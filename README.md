@@ -1,0 +1,2 @@
+# Hands2017ChallengeCompositionalPoseRegression
+Implementation of Compositional Pose Regression for ICCV2017 workshop Hands2017 Challenge.
