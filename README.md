@@ -39,7 +39,7 @@ Train:
                                                          
 ......train_gt_centroid_qf_1101_meanscale180\gt_centroid_qf_1101_meanscale180 :
 
-                                                         ground centroid x y z (global coordinate) 3 dimension
+                                                         ground truth centroid x y z (global coordinate) 3 dimension
                                                          
 ......train_gt_centroid_qf_1101_meanscale200\gt_centroid_qf_1101_meanscale200 :                                                         
 
