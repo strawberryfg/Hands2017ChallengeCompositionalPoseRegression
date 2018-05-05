@@ -259,7 +259,30 @@ namespace caffe{
             const vector<bool>& propagate_down, const vector<Blob<Dtype>*>& bottom);
     };
 
-	
+    //read depth image from disk file directly and normalize it no bounding box
+    template <typename Dtype>
+     class DeepHandModelReadDepthNoBBXWithAVGZLayer : public Layer<Dtype> {
+	public:
+	    explicit DeepHandModelReadDepthNoBBXWithAVGZLayer(const LayerParameter& param)
+			: Layer<Dtype>(param) { }
+	    virtual void LayerSetUp(const vector<Blob<Dtype>*>& bottom,
+			const vector<Blob<Dtype>*>& top);
+	    virtual void Reshape(const vector<Blob<Dtype>*>& bottom,
+			const vector<Blob<Dtype>*>& top);
+
+	    virtual inline const char* type() const { return "DeepHandModelReadDepthNoBBXWithAVGZ"; }
+	    virtual inline int ExactNumBottomBlobs() const { return 2; }
+	    virtual inline int ExactNumTopBlobs() const { return 1; }
+
+	protected:
+	    virtual void Forward_cpu(const vector<Blob<Dtype>*>& bottom,
+			const vector<Blob<Dtype>*>& top);
+	    virtual void Backward_cpu(const vector<Blob<Dtype>*>& top,
+			const vector<bool>& propagate_down, const vector<Blob<Dtype>*>& bottom);
+	    string file_prefix_;
+	    int depth_size_;
+
+    };
 	
    //Add vector by constant
     template <typename Dtype>
