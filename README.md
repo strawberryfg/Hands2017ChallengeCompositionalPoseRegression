@@ -5,7 +5,7 @@ Note that this is the unofficial implementation for the paper "Compositional Hum
 
 In case it is beneficial for your research, please cite this wepage.
 
-The author finds it laborious to upload the preprocessed depth data & ground truth & statistics(avg & std), and to write decent comments for the code. Data is on Google Drive: https://drive.google.com/open?id=1jHALBXnf-XXlJiwAuRoLqVQ-9qMmU6ku 
+Data is on Google Drive: https://drive.google.com/open?id=1jHALBXnf-XXlJiwAuRoLqVQ-9qMmU6ku 
 
 Train:
 
