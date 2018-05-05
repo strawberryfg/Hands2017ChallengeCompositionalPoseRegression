@@ -29,7 +29,8 @@ Train:
 
 ......train_gt_joint_3d_local_1101_meanscale180\gt_joint_3d_local_1101_meanscale180:
 
-                                                         local 3d joint within the 400*400*400 cube ; normalized in [-1, 1] ; 21 * 3 dimension                                                         ......train_gt_joint_3d_local_1101_meanscale200\gt_joint_3d_local_1101_meanscale200:
+                                                         local 3d joint within the 400*400*400 cube ; normalized in [-1, 1] ; 21 * 3 dimension
+                                                         ......train_gt_joint_3d_local_1101_meanscale200\gt_joint_3d_local_1101_meanscale200:
                                                          
                                                          local 3d joint 
                                                          
