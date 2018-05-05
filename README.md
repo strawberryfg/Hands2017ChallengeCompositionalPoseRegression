@@ -52,11 +52,11 @@ Test:
 
 ......subbg_v0_xiaotao_hands_test_meanscale180\subbg_v0_xiaotao_hands_train_meanscale180:
 
-                                                         processed image source 1 (943401 cropped images)
+                                                         processed image source 1
                                                          
 ......subbg_v0_xiaotao_hands_tEst_meanscale200\subbg_v0_xiaotao_hands_train_meanscale200:
 
-                                                         processed image source 2 (943401 cropped images)
+                                                         processed image source 2
                                                          
                                                          another cropping strategy with minor difference)
                                                          
