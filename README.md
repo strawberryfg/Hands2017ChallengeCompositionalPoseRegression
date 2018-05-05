@@ -5,7 +5,41 @@ Note that this is the unofficial implementation for the paper "Compositional Hum
 
 In case it is beneficial for your research, please cite this wepage.
 
-The author finds it laborious to upload the preprocessed depth data & ground truth & statistics(avg & std), and to write decent comments for the code. Data will be uploaded to drive soon.
+The author finds it laborious to upload the preprocessed depth data & ground truth & statistics(avg & std), and to write decent comments for the code. Data is on Google Drive: https://drive.google.com/open?id=1jHALBXnf-XXlJiwAuRoLqVQ-9qMmU6ku 
+
+Train:
+......missing_index.txt: missing index (invalid images) index starting from 1
+
+......subbg_v0_xiaotao_hands_train_meanscale180\subbg_v0_xiaotao_hands_train_meanscale180:
+
+                                                         processed image source 1 (943401 cropped images)
+                                                         
+......subbg_v0_xiaotao_hands_train_meanscale200\subbg_v0_xiaotao_hands_train_meanscale200:
+
+                                                         processed image source 2 (943401 cropped images)
+                                                         
+                                                         another cropping strategy with minor difference)
+                                                         
+......train_bbx_1101_meanscale180\bbx_1101_meanscale180: bbx of preprocessed image source 1 
+
+                                                         Format: (bbx_x1, bbx_y1, width, height)
+                                                         
+......train_bbx_1101_meanscale200\bbx_1101_meanscale200: bbx of preprocessed image source 2 
+
+......train_gt_joint_3d_local_1101_meanscale180\gt_joint_3d_local_1101_meanscale180:
+
+                                                         local 3d joint within the 400*400*400 cube ; normalized in [-1, 1] ; 21 * 3 dimension                                                         ......train_gt_joint_3d_local_1101_meanscale200\gt_joint_3d_local_1101_meanscale200:
+                                                         
+                                                         local 3d joint 
+                                                         
+......train_gt_centroid_qf_1101_meanscale180\gt_centroid_qf_1101_meanscale180 :
+
+                                                         ground centroid x y z (global coordinate) 3 dimension
+                                                         
+......train_gt_centroid_qf_1101_meanscale200\gt_centroid_qf_1101_meanscale200 :                                                         
+
+......stdavg_gt_0824.zip:                                standard deviation / average statistics on the bone length of the dataset
+
 
 @inproceedings{sun2017compositional,
   title={Compositional human pose regression},
